@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NamingConventions_Tests' do
+  pod 'NamingConventions', :path => '../'
+  
+  
+end
