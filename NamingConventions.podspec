@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.name             = 'NamingConventions'
   s.version          = '0.1.0'
   s.summary          = 'This provides a solution to parse and convert name/ids from different conventions.'
-  s.swift_version    = '4.2'
+  s.swift_version    = '4.0'
 
   s.description      = <<-DESC
 This project defines a way to determine the naming convention has been used for a given string, and convert name/IDs with a specific naming-convention, to its equivalent name/ID in other naming-convention.
@@ -17,7 +17,7 @@ This project defines a way to determine the naming convention has been used for 
   s.source           = { :git => 'git@github.com:Acidmanic/SwiftNamingConventions.git', :tag => s.version }
   s.social_media_url = 'https://www.linkedin.com/in/mani-moayedi'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'NamingConventions/Classes/**/*'
 
