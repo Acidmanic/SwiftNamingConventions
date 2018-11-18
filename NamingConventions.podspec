@@ -1,42 +1,24 @@
-#
-# Be sure to run `pod lib lint NamingConventions.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
+
+
 
 Pod::Spec.new do |s|
   s.name             = 'NamingConventions'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NamingConventions.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'This provides a solution to parse and convert name/ids from different conventions.'
+  s.swift_version    = '4.2'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This project defines a way to determine the naming convention has been used for a given string, and convert name/IDs with a specific naming-convention, to its equivalent name/ID in other naming-convention.
                        DESC
 
-  s.homepage         = 'https://github.com/goj_loj@yahoo.com/NamingConventions'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/Acidmanic/SwiftNamingConventions'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'goj_loj@yahoo.com' => 'acidmanic.moayedi@gmail.com' }
-  s.source           = { :git => 'https://github.com/goj_loj@yahoo.com/NamingConventions.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Acidmanic' => 'acidmanic.moayedi@gmail.com' }
+  s.source           = { :git => 'git@github.com:Acidmanic/SwiftNamingConventions.git', :tag => s.version }
+  s.social_media_url = 'https://www.linkedin.com/in/mani-moayedi'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'NamingConventions/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'NamingConventions' => ['NamingConventions/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30BC64BC7836D1564C48D77D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		314A47E8258064391A84479A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30BC64BC7836D1564C48D77D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		314A47E8258064391A84479A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		416D6B42D2A0D55349974780 /* Pods_NamingConventions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NamingConventions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C8926AE454B726320A4CCD /* Pods-NamingConventions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamingConventions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NamingConventions_Tests/Pods-NamingConventions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* NamingConventions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamingConventions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6675D3F1B40F2C1186C02E0D /* Pods-NamingConventions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamingConventions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NamingConventions_Tests/Pods-NamingConventions_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D7BCCC1A88D1CBCC4CBAEC04 /* NamingConventions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NamingConventions.podspec; path = ../NamingConventions.podspec; sourceTree = "<group>"; };
+		D7BCCC1A88D1CBCC4CBAEC04 /* NamingConventions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NamingConventions.podspec; path = ../NamingConventions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +131,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
