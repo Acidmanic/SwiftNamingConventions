@@ -1,0 +1,6 @@
+framework module Pods_NamingConventions_Tests {
+  umbrella header "Pods-NamingConventions_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
