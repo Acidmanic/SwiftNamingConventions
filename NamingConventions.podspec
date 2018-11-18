@@ -14,7 +14,7 @@ This project defines a way to determine the naming convention has been used for 
   s.homepage         = 'https://github.com/Acidmanic/SwiftNamingConventions'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Acidmanic' => 'acidmanic.moayedi@gmail.com' }
-  s.source           = { :git => 'git@github.com:Acidmanic/SwiftNamingConventions.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/Acidmanic/SwiftNamingConventions.git', :tag => s.version }
   s.social_media_url = 'https://www.linkedin.com/in/mani-moayedi'
 
   s.ios.deployment_target = '9.3'
