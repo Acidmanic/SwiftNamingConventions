@@ -23,4 +23,5 @@ deploy:
     tags: true
   file_glob: true
   file: /Users/travis/Library/Developer/Xcode/DerivedData/NamingConventions-*/Build/Products/Release-iphoneos/NamingConventions/NamingConventions.framework
-  after_deploy: "pod trunk push --allow-warnings"
+after_deploy: "pod trunk push --allow-warnings"
+  
