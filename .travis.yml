@@ -13,10 +13,10 @@ before_install:
 script:
 - set -e
 - xcodebuild -workspace Example/NamingConventions.xcworkspace -scheme NamingConventions
-#- pod trunk push --allow-warnings
+
 deploy:
   provider: releases
-  script: echo "POD TRUNK HERE"
+  script: pod trunk push --allow-warnings
   skip-cleanup: true
   api_key: $GITHUB_TOKEN 
   keep-history: true
