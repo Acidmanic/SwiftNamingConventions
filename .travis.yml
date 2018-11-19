@@ -1,6 +1,5 @@
-# references:
-# * https://www.objc.io/issues/6-build-tools/travis-ci/
-# * https://github.com/supermarin/xcpretty#usage
+
+
 
 osx_image: xcode9.1
 language: objective-c
@@ -24,5 +23,4 @@ deploy:
     tags: true
   file_glob: true
   file: /Users/travis/Library/Developer/Xcode/DerivedData/NamingConventions-*/Build/Products/Release-iphoneos/NamingConventions/NamingConventions.framework
-  after_deploy:
-- pod trunk push --allow-warnings
+  after_deploy: "pod trunk push --allow-warnings"
