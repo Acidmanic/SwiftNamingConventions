@@ -1,6 +1,6 @@
 # NamingConventions
 
-[![CI Status](https://img.shields.io/travis/Acidmanic/NamingConventions.svg?style=flat)](https://travis-ci.org/goj_loj@yahoo.com/NamingConventions)
+[![CI Status](https://img.shields.io/travis/rust-lang/rust.svg.svg?style=flat)](https://travis-ci.org/Acidmanic/NamingConventions)
 [![Version](https://img.shields.io/cocoapods/v/NamingConventions.svg?style=flat)](https://cocoapods.org/pods/NamingConventions)
 [![License](https://img.shields.io/cocoapods/l/NamingConventions.svg?style=flat)](https://cocoapods.org/pods/NamingConventions)
 [![Platform](https://img.shields.io/cocoapods/p/NamingConventions.svg?style=flat)](https://cocoapods.org/pods/NamingConventions)
