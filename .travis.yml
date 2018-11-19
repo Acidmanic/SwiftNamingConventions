@@ -16,10 +16,13 @@ script:
 
 deploy:
   provider: releases
-  script: pod trunk push --allow-warnings
   skip-cleanup: true
   api_key: $GITHUB_TOKEN 
   keep-history: true
   on:
     branch: master
-tags: true
+    tags: true
+  file_glob: true
+  file: /Users/travis/Library/Developer/Xcode/DerivedData/NamingConventions-*/Build/Products/Release-iphoneos/NamingConventions/NamingConventions.framework
+  after_deploy:
+- pod trunk push --allow-warnings
