@@ -329,6 +329,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NamingConventions/NamingConventions.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acidmanic.NamingConventions;
 				PRODUCT_NAME = NamingConventions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -361,6 +362,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NamingConventions/NamingConventions.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acidmanic.NamingConventions;
 				PRODUCT_NAME = NamingConventions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
