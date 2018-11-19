@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NamingConventions'
-  s.version          = '0.1.01'
+  s.version          = '0.1.02'
   s.summary          = 'This provides a solution to parse and convert name/ids from different conventions.'
   s.swift_version    = '4.0'
 
