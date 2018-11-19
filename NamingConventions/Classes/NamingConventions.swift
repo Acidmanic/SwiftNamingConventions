@@ -8,20 +8,20 @@
 
 import Foundation
 
-class NamingConventions{
+public class NamingConventions{
     private init(){}
     
-    static let CamelCase=NamingConvention(starter: "", firstParticle: ParticleCase.Lower, otherParticles: ParticleCase.Pretty, separator: "")
+    public static let CamelCase=NamingConvention(starter: "", firstParticle: ParticleCase.Lower, otherParticles: ParticleCase.Pretty, separator: "")
     
-    static let PascallCase=NamingConvention(starter: "", firstParticle: ParticleCase.Pretty, otherParticles: ParticleCase.Pretty, separator: "")
+    public static let PascallCase=NamingConvention(starter: "", firstParticle: ParticleCase.Pretty, otherParticles: ParticleCase.Pretty, separator: "")
     
-    static let SnakeCase=NamingConvention(starter: "", firstParticle: ParticleCase.Lower, otherParticles: ParticleCase.Lower, separator: "-")
+    public static let SnakeCase=NamingConvention(starter: "", firstParticle: ParticleCase.Lower, otherParticles: ParticleCase.Lower, separator: "-")
     
-    static let JavaConstantCase=NamingConvention(starter: "", firstParticle: ParticleCase.Upper, otherParticles: ParticleCase.Upper, separator: "_")
+    public static let JavaConstantCase=NamingConvention(starter: "", firstParticle: ParticleCase.Upper, otherParticles: ParticleCase.Upper, separator: "_")
     
-    static let MSInternalCase=NamingConvention(starter: "_", firstParticle: ParticleCase.Lower, otherParticles: ParticleCase.Pretty, separator: "")
+    public static let MSInternalCase=NamingConvention(starter: "_", firstParticle: ParticleCase.Lower, otherParticles: ParticleCase.Pretty, separator: "")
     
-    static let All = [NamingConventions.CamelCase,
+    public static let All = [NamingConventions.CamelCase,
                      NamingConventions.PascallCase,
                      NamingConventions.SnakeCase,
                      NamingConventions.JavaConstantCase,

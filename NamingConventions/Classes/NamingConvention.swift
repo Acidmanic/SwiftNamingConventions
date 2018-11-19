@@ -15,7 +15,7 @@ enum ParticleCase{
 }
 
 
-class NamingConvention{
+public class NamingConvention{
     
     var starter:String!=""
     var firstParticleCase:ParticleCase=ParticleCase.Lower

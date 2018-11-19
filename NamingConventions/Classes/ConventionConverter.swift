@@ -38,8 +38,11 @@ private extension String{
     }
 }
 
-class ConventionConverter{
+public class ConventionConverter{
     
+    
+    public init() {
+    }
     
     
     private func hasValue(string:String!)->Bool{
