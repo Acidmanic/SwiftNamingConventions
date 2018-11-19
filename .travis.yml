@@ -13,6 +13,6 @@ before_install:
 script:
 - set -e
 - xcodebuild -workspace Example/NamingConventions.xcworkspace -scheme NamingConventions
-- pod trunk push
+- pod trunk push --allow-warnings
 #- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/NamingConventions.xcworkspace -scheme NamingConventions-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 #- pod lib lint
