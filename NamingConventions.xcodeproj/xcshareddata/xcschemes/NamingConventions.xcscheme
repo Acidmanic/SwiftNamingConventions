@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "0910"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "NamingConventions_Example.app"
-               BlueprintName = "NamingConventions_Example"
-               ReferencedContainer = "container:NamingConventions.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "NamingConventions_Tests.xctest"
-               BlueprintName = "NamingConventions_Tests"
+               BlueprintIdentifier = "F1F6A79721A43F1200859C55"
+               BuildableName = "NamingConventions.framework"
+               BlueprintName = "NamingConventions"
                ReferencedContainer = "container:NamingConventions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +33,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "NamingConventions_Tests.xctest"
-               BlueprintName = "NamingConventions_Tests"
+               BlueprintIdentifier = "F1F6A7A021A43F1200859C55"
+               BuildableName = "NamingConventionsTests.xctest"
+               BlueprintName = "NamingConventionsTests"
                ReferencedContainer = "container:NamingConventions.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -57,9 +43,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "NamingConventions_Example.app"
-            BlueprintName = "NamingConventions_Example"
+            BlueprintIdentifier = "F1F6A79721A43F1200859C55"
+            BuildableName = "NamingConventions.framework"
+            BlueprintName = "NamingConventions"
             ReferencedContainer = "container:NamingConventions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -77,16 +63,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "NamingConventions_Example.app"
-            BlueprintName = "NamingConventions_Example"
+            BlueprintIdentifier = "F1F6A79721A43F1200859C55"
+            BuildableName = "NamingConventions.framework"
+            BlueprintName = "NamingConventions"
             ReferencedContainer = "container:NamingConventions.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -96,16 +81,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "NamingConventions_Example.app"
-            BlueprintName = "NamingConventions_Example"
+            BlueprintIdentifier = "F1F6A79721A43F1200859C55"
+            BuildableName = "NamingConventions.framework"
+            BlueprintName = "NamingConventions"
             ReferencedContainer = "container:NamingConventions.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
