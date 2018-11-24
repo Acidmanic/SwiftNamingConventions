@@ -6,7 +6,7 @@
 //  Copyright © 2018 Mani Moayedi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for NamingConventions.
 FOUNDATION_EXPORT double NamingConventionsVersionNumber;
