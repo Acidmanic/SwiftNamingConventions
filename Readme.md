@@ -2,8 +2,13 @@
 
 [![CI Status](https://img.shields.io/travis/rust-lang/rust.svg?style=flat)](https://travis-ci.org/Acidmanic/NamingConventions)
 [![Version](https://img.shields.io/cocoapods/v/NamingConventions.svg?style=flat)](https://cocoapods.org/pods/NamingConventions)
-[![License](https://img.shields.io/cocoapods/l/NamingConventions.svg?style=flat)](https://cocoapods.org/pods/NamingConventions)
+[![GitHub license](https://img.shields.io/github/license/Acidmanic/SwiftNamingConventions.svg)](https://github.com/Acidmanic/SwiftNamingConventions/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/NamingConventions.svg?style=flat)](https://cocoapods.org/pods/NamingConventions)
+
+<img src="https://raw.githubusercontent.com/Carthage/Carthage/master/Logo/PNG/colored.png" width="32px" height="32px" />  
+<img src="https://raw.githubusercontent.com/CocoaPods/shared_resources/master/img/CocoaPods-Logo-Highlight.png" width="128px" height="32px" />
+
+
 
 
 About
@@ -46,12 +51,23 @@ This project does not have any dependencies (except for foundation!)
 
 ## Installation
 
+*	Cocoapods
+
 NamingConventions is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'NamingConventions'
 ```
+
+*	Carthage
+
+To get the latest version of library using Carthage, you can add following line to your Cartfile.
+
+```bash
+github "Acidmanic/SwiftNamingConventions"
+```
+
 
 ## License
 
