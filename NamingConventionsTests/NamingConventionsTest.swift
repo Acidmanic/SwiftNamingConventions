@@ -6,7 +6,6 @@
 //  Copyright © 2018 Mani Moayedi. All rights reserved.
 //
 import Foundation
-import UIKit
 import XCTest
 @testable import NamingConventions
 

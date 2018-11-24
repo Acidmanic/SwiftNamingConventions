@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		F1B46A9F21A9986B000A78E3 /* NamingConventions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B46A9621A9986B000A78E3 /* NamingConventions.framework */; };
 		F1B46ABB21A998A6000A78E3 /* NamingConventions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B46AB221A998A6000A78E3 /* NamingConventions.framework */; };
+		F1B46AC921A99E0F000A78E3 /* NamingConventionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7C121A442F300859C55 /* NamingConventionsTest.swift */; };
+		F1B46ACA21A99E0F000A78E3 /* TestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7C221A442F300859C55 /* TestBase.swift */; };
+		F1B46ACB21A99E7F000A78E3 /* ConventionConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7B821A4409100859C55 /* ConventionConverter.swift */; };
+		F1B46ACC21A99E7F000A78E3 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7B921A4409100859C55 /* Name.swift */; };
+		F1B46ACD21A99E7F000A78E3 /* NamingConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7BB21A4409100859C55 /* NamingConvention.swift */; };
+		F1B46ACE21A99E7F000A78E3 /* NamingConventions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7BA21A4409100859C55 /* NamingConventions.swift */; };
+		F1B46ACF21A99EB5000A78E3 /* ConventionConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7B821A4409100859C55 /* ConventionConverter.swift */; };
+		F1B46AD021A99EB5000A78E3 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7B921A4409100859C55 /* Name.swift */; };
+		F1B46AD121A99EB5000A78E3 /* NamingConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7BB21A4409100859C55 /* NamingConvention.swift */; };
+		F1B46AD221A99EB5000A78E3 /* NamingConventions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7BA21A4409100859C55 /* NamingConventions.swift */; };
+		F1B46AD321A99EE8000A78E3 /* ConventionConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7B821A4409100859C55 /* ConventionConverter.swift */; };
+		F1B46AD421A99EE8000A78E3 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7B921A4409100859C55 /* Name.swift */; };
+		F1B46AD521A99EE8000A78E3 /* NamingConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7BB21A4409100859C55 /* NamingConvention.swift */; };
+		F1B46AD621A99EE8000A78E3 /* NamingConventions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7BA21A4409100859C55 /* NamingConventions.swift */; };
+		F1B46AD721A99EEF000A78E3 /* NamingConventionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7C121A442F300859C55 /* NamingConventionsTest.swift */; };
+		F1B46AD821A99EEF000A78E3 /* TestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A7C221A442F300859C55 /* TestBase.swift */; };
 		F1F6A7A221A43F1200859C55 /* NamingConventions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F6A79821A43F1200859C55 /* NamingConventions.framework */; };
 		F1F6A7A921A43F1200859C55 /* NamingConventions.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F6A79B21A43F1200859C55 /* NamingConventions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1F6A7B421A43F8100859C55 /* NamingConventions.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F1F6A7B321A43F8100859C55 /* NamingConventions.podspec */; };
@@ -473,6 +489,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B46ACF21A99EB5000A78E3 /* ConventionConverter.swift in Sources */,
+				F1B46AD021A99EB5000A78E3 /* Name.swift in Sources */,
+				F1B46AD121A99EB5000A78E3 /* NamingConvention.swift in Sources */,
+				F1B46AD221A99EB5000A78E3 /* NamingConventions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +500,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B46AD321A99EE8000A78E3 /* ConventionConverter.swift in Sources */,
+				F1B46AD421A99EE8000A78E3 /* Name.swift in Sources */,
+				F1B46AD521A99EE8000A78E3 /* NamingConvention.swift in Sources */,
+				F1B46AD621A99EE8000A78E3 /* NamingConventions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +511,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B46AD721A99EEF000A78E3 /* NamingConventionsTest.swift in Sources */,
+				F1B46AD821A99EEF000A78E3 /* TestBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +520,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B46ACB21A99E7F000A78E3 /* ConventionConverter.swift in Sources */,
+				F1B46ACC21A99E7F000A78E3 /* Name.swift in Sources */,
+				F1B46ACD21A99E7F000A78E3 /* NamingConvention.swift in Sources */,
+				F1B46ACE21A99E7F000A78E3 /* NamingConventions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +531,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B46AC921A99E0F000A78E3 /* NamingConventionsTest.swift in Sources */,
+				F1B46ACA21A99E0F000A78E3 /* TestBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +674,7 @@
 		F1B46AAB21A9986B000A78E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NamingConventionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -657,6 +690,7 @@
 		F1B46AAC21A9986B000A78E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NamingConventionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -720,6 +754,7 @@
 		F1B46AC721A998A6000A78E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -736,6 +771,7 @@
 		F1B46AC821A998A6000A78E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
