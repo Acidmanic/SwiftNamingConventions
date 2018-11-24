@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F1F6A79721A43F1200859C55"
                BuildableName = "NamingConventions.framework"
-               BlueprintName = "NamingConventions"
+               BlueprintName = "NamingConventions iOS"
                ReferencedContainer = "container:NamingConventions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,8 +34,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F1F6A7A021A43F1200859C55"
-               BuildableName = "NamingConventionsTests.xctest"
-               BlueprintName = "NamingConventionsTests"
+               BuildableName = "NamingConventionsTests iOS.xctest"
+               BlueprintName = "NamingConventionsTests iOS"
                ReferencedContainer = "container:NamingConventions.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -45,7 +45,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1F6A79721A43F1200859C55"
             BuildableName = "NamingConventions.framework"
-            BlueprintName = "NamingConventions"
+            BlueprintName = "NamingConventions iOS"
             ReferencedContainer = "container:NamingConventions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -68,7 +68,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1F6A79721A43F1200859C55"
             BuildableName = "NamingConventions.framework"
-            BlueprintName = "NamingConventions"
+            BlueprintName = "NamingConventions iOS"
             ReferencedContainer = "container:NamingConventions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -86,7 +86,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1F6A79721A43F1200859C55"
             BuildableName = "NamingConventions.framework"
-            BlueprintName = "NamingConventions"
+            BlueprintName = "NamingConventions iOS"
             ReferencedContainer = "container:NamingConventions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
