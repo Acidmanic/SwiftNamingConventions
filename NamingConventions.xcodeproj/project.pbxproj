@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1B46A9F21A9986B000A78E3 /* NamingConventions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B46A9621A9986B000A78E3 /* NamingConventions.framework */; };
+		F1B46ABB21A998A6000A78E3 /* NamingConventions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B46AB221A998A6000A78E3 /* NamingConventions.framework */; };
 		F1F6A7A221A43F1200859C55 /* NamingConventions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F6A79821A43F1200859C55 /* NamingConventions.framework */; };
 		F1F6A7A921A43F1200859C55 /* NamingConventions.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F6A79B21A43F1200859C55 /* NamingConventions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1F6A7B421A43F8100859C55 /* NamingConventions.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F1F6A7B321A43F8100859C55 /* NamingConventions.podspec */; };
@@ -20,6 +22,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F1B46AA021A9986B000A78E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F6A78F21A43F1200859C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1B46A9521A9986B000A78E3;
+			remoteInfo = NamingConventions;
+		};
+		F1B46ABC21A998A6000A78E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F6A78F21A43F1200859C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1B46AB121A998A6000A78E3;
+			remoteInfo = NamingConventions;
+		};
 		F1F6A7A321A43F1200859C55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F1F6A78F21A43F1200859C55 /* Project object */;
@@ -30,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1B46A8921A99842000A78E3 /* NamingConventions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NamingConventions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B46A9621A9986B000A78E3 /* NamingConventions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NamingConventions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B46A9E21A9986B000A78E3 /* NamingConventions.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamingConventions.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B46AB221A998A6000A78E3 /* NamingConventions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NamingConventions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B46ABA21A998A6000A78E3 /* NamingConventions.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamingConventions.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F6A79821A43F1200859C55 /* NamingConventions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NamingConventions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F6A79B21A43F1200859C55 /* NamingConventions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NamingConventions.h; sourceTree = "<group>"; };
 		F1F6A79C21A43F1200859C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +68,43 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F1B46A8521A99842000A78E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46A9221A9986B000A78E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46A9B21A9986B000A78E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B46A9F21A9986B000A78E3 /* NamingConventions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46AAE21A998A6000A78E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46AB721A998A6000A78E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B46ABB21A998A6000A78E3 /* NamingConventions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1F6A79421A43F1200859C55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,6 +138,11 @@
 			children = (
 				F1F6A79821A43F1200859C55 /* NamingConventions.framework */,
 				F1F6A7A121A43F1200859C55 /* NamingConventions.xctest */,
+				F1B46A8921A99842000A78E3 /* NamingConventions.framework */,
+				F1B46A9621A9986B000A78E3 /* NamingConventions.framework */,
+				F1B46A9E21A9986B000A78E3 /* NamingConventions.xctest */,
+				F1B46AB221A998A6000A78E3 /* NamingConventions.framework */,
+				F1B46ABA21A998A6000A78E3 /* NamingConventions.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +191,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		F1B46A8621A99842000A78E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46A9321A9986B000A78E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46AAF21A998A6000A78E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1F6A79521A43F1200859C55 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +223,96 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		F1B46A8821A99842000A78E3 /* NamingConventions watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B46A8E21A99842000A78E3 /* Build configuration list for PBXNativeTarget "NamingConventions watchOS" */;
+			buildPhases = (
+				F1B46A8421A99842000A78E3 /* Sources */,
+				F1B46A8521A99842000A78E3 /* Frameworks */,
+				F1B46A8621A99842000A78E3 /* Headers */,
+				F1B46A8721A99842000A78E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NamingConventions watchOS";
+			productName = NamingConventions;
+			productReference = F1B46A8921A99842000A78E3 /* NamingConventions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1B46A9521A9986B000A78E3 /* NamingConventions tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B46AA721A9986B000A78E3 /* Build configuration list for PBXNativeTarget "NamingConventions tvOS" */;
+			buildPhases = (
+				F1B46A9121A9986B000A78E3 /* Sources */,
+				F1B46A9221A9986B000A78E3 /* Frameworks */,
+				F1B46A9321A9986B000A78E3 /* Headers */,
+				F1B46A9421A9986B000A78E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NamingConventions tvOS";
+			productName = NamingConventions;
+			productReference = F1B46A9621A9986B000A78E3 /* NamingConventions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1B46A9D21A9986B000A78E3 /* NamingConventionsTests tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B46AAA21A9986B000A78E3 /* Build configuration list for PBXNativeTarget "NamingConventionsTests tvOS" */;
+			buildPhases = (
+				F1B46A9A21A9986B000A78E3 /* Sources */,
+				F1B46A9B21A9986B000A78E3 /* Frameworks */,
+				F1B46A9C21A9986B000A78E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1B46AA121A9986B000A78E3 /* PBXTargetDependency */,
+			);
+			name = "NamingConventionsTests tvOS";
+			productName = NamingConventionsTests;
+			productReference = F1B46A9E21A9986B000A78E3 /* NamingConventions.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1B46AB121A998A6000A78E3 /* NamingConventions macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B46AC321A998A6000A78E3 /* Build configuration list for PBXNativeTarget "NamingConventions macOS" */;
+			buildPhases = (
+				F1B46AAD21A998A6000A78E3 /* Sources */,
+				F1B46AAE21A998A6000A78E3 /* Frameworks */,
+				F1B46AAF21A998A6000A78E3 /* Headers */,
+				F1B46AB021A998A6000A78E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NamingConventions macOS";
+			productName = NamingConventions;
+			productReference = F1B46AB221A998A6000A78E3 /* NamingConventions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1B46AB921A998A6000A78E3 /* NamingConventionsTests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B46AC621A998A6000A78E3 /* Build configuration list for PBXNativeTarget "NamingConventionsTests macOS" */;
+			buildPhases = (
+				F1B46AB621A998A6000A78E3 /* Sources */,
+				F1B46AB721A998A6000A78E3 /* Frameworks */,
+				F1B46AB821A998A6000A78E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1B46ABD21A998A6000A78E3 /* PBXTargetDependency */,
+			);
+			name = "NamingConventionsTests macOS";
+			productName = NamingConventionsTests;
+			productReference = F1B46ABA21A998A6000A78E3 /* NamingConventions.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F1F6A79721A43F1200859C55 /* NamingConventions iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1F6A7AC21A43F1200859C55 /* Build configuration list for PBXNativeTarget "NamingConventions iOS" */;
@@ -185,6 +359,26 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Mani Moayedi";
 				TargetAttributes = {
+					F1B46A8821A99842000A78E3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F1B46A9521A9986B000A78E3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F1B46A9D21A9986B000A78E3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F1B46AB121A998A6000A78E3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F1B46AB921A998A6000A78E3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
 					F1F6A79721A43F1200859C55 = {
 						CreatedOnToolsVersion = 9.1;
 						LastSwiftMigration = 0910;
@@ -211,11 +405,51 @@
 			targets = (
 				F1F6A79721A43F1200859C55 /* NamingConventions iOS */,
 				F1F6A7A021A43F1200859C55 /* NamingConventionsTests iOS */,
+				F1B46A8821A99842000A78E3 /* NamingConventions watchOS */,
+				F1B46A9521A9986B000A78E3 /* NamingConventions tvOS */,
+				F1B46A9D21A9986B000A78E3 /* NamingConventionsTests tvOS */,
+				F1B46AB121A998A6000A78E3 /* NamingConventions macOS */,
+				F1B46AB921A998A6000A78E3 /* NamingConventionsTests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F1B46A8721A99842000A78E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46A9421A9986B000A78E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46A9C21A9986B000A78E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46AB021A998A6000A78E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46AB821A998A6000A78E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1F6A79621A43F1200859C55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,6 +469,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F1B46A8421A99842000A78E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46A9121A9986B000A78E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46A9A21A9986B000A78E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46AAD21A998A6000A78E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B46AB621A998A6000A78E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1F6A79321A43F1200859C55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,6 +527,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F1B46AA121A9986B000A78E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1B46A9521A9986B000A78E3 /* NamingConventions tvOS */;
+			targetProxy = F1B46AA021A9986B000A78E3 /* PBXContainerItemProxy */;
+		};
+		F1B46ABD21A998A6000A78E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1B46AB121A998A6000A78E3 /* NamingConventions macOS */;
+			targetProxy = F1B46ABC21A998A6000A78E3 /* PBXContainerItemProxy */;
+		};
 		F1F6A7A421A43F1200859C55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F1F6A79721A43F1200859C55 /* NamingConventions iOS */;
@@ -266,6 +545,210 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		F1B46A8F21A99842000A78E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NamingConventions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventions;
+				PRODUCT_NAME = NamingConventions;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		F1B46A9021A99842000A78E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NamingConventions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventions;
+				PRODUCT_NAME = NamingConventions;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		F1B46AA821A9986B000A78E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NamingConventions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventions;
+				PRODUCT_NAME = NamingConventions;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		F1B46AA921A9986B000A78E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NamingConventions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventions;
+				PRODUCT_NAME = NamingConventions;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		F1B46AAB21A9986B000A78E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NamingConventionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventionsTests;
+				PRODUCT_NAME = NamingConventions;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		F1B46AAC21A9986B000A78E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NamingConventionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventionsTests;
+				PRODUCT_NAME = NamingConventions;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		F1B46AC421A998A6000A78E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = NamingConventions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventions;
+				PRODUCT_NAME = NamingConventions;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F1B46AC521A998A6000A78E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = NamingConventions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventions;
+				PRODUCT_NAME = NamingConventions;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		F1B46AC721A998A6000A78E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NamingConventionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventionsTests;
+				PRODUCT_NAME = NamingConventions;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F1B46AC821A998A6000A78E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NamingConventionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventionsTests;
+				PRODUCT_NAME = NamingConventions;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		F1F6A7AA21A43F1200859C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -460,6 +943,51 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F1B46A8E21A99842000A78E3 /* Build configuration list for PBXNativeTarget "NamingConventions watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B46A8F21A99842000A78E3 /* Debug */,
+				F1B46A9021A99842000A78E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B46AA721A9986B000A78E3 /* Build configuration list for PBXNativeTarget "NamingConventions tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B46AA821A9986B000A78E3 /* Debug */,
+				F1B46AA921A9986B000A78E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B46AAA21A9986B000A78E3 /* Build configuration list for PBXNativeTarget "NamingConventionsTests tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B46AAB21A9986B000A78E3 /* Debug */,
+				F1B46AAC21A9986B000A78E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B46AC321A998A6000A78E3 /* Build configuration list for PBXNativeTarget "NamingConventions macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B46AC421A998A6000A78E3 /* Debug */,
+				F1B46AC521A998A6000A78E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B46AC621A998A6000A78E3 /* Build configuration list for PBXNativeTarget "NamingConventionsTests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B46AC721A998A6000A78E3 /* Debug */,
+				F1B46AC821A998A6000A78E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F1F6A79221A43F1200859C55 /* Build configuration list for PBXProject "NamingConventions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

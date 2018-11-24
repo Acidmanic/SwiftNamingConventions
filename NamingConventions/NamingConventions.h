@@ -2,7 +2,7 @@
 //  NamingConventions.h
 //  NamingConventions
 //
-//  Created by Mani Moayedi on 11/20/18.
+//  Created by Mani Moayedi on 11/24/18.
 //  Copyright © 2018 Mani Moayedi. All rights reserved.
 //
 
