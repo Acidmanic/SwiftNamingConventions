@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NamingConventions'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'This provides a solution to parse and convert name/ids from different conventions.'
   s.swift_version    = '4.0'
 
@@ -17,6 +17,9 @@ This project defines a way to determine the naming convention has been used for 
   s.social_media_url = 'https://about.me/moayedi'
 
   s.ios.deployment_target = '9.3'
+  s.osx.deployment_target = '10.12'
+  s.watchos.deployment_target = "3.2"
+  s.tvos.deployment_target = '10.2'
 
   s.source_files = 'NamingConventions/Classes/**/*'
 
