@@ -48,13 +48,13 @@
 /* Begin PBXFileReference section */
 		F1B46A8921A99842000A78E3 /* NamingConventions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NamingConventions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B46A9621A9986B000A78E3 /* NamingConventions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NamingConventions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1B46A9E21A9986B000A78E3 /* NamingConventions.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamingConventions.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B46A9E21A9986B000A78E3 /* NamingConventionsTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NamingConventionsTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B46AB221A998A6000A78E3 /* NamingConventions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NamingConventions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1B46ABA21A998A6000A78E3 /* NamingConventions.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamingConventions.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B46ABA21A998A6000A78E3 /* NamingConventionsTests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NamingConventionsTests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F6A79821A43F1200859C55 /* NamingConventions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NamingConventions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F6A79B21A43F1200859C55 /* NamingConventions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NamingConventions.h; sourceTree = "<group>"; };
 		F1F6A79C21A43F1200859C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1F6A7A121A43F1200859C55 /* NamingConventions.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamingConventions.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F6A7A121A43F1200859C55 /* NamingConventionsTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NamingConventionsTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F6A7A821A43F1200859C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1F6A7B321A43F8100859C55 /* NamingConventions.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NamingConventions.podspec; sourceTree = SOURCE_ROOT; };
 		F1F6A7B521A43FAF00859C55 /* test.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = SOURCE_ROOT; };
@@ -137,12 +137,12 @@
 			isa = PBXGroup;
 			children = (
 				F1F6A79821A43F1200859C55 /* NamingConventions.framework */,
-				F1F6A7A121A43F1200859C55 /* NamingConventions.xctest */,
+				F1F6A7A121A43F1200859C55 /* NamingConventionsTests iOS.xctest */,
 				F1B46A8921A99842000A78E3 /* NamingConventions.framework */,
 				F1B46A9621A9986B000A78E3 /* NamingConventions.framework */,
-				F1B46A9E21A9986B000A78E3 /* NamingConventions.xctest */,
+				F1B46A9E21A9986B000A78E3 /* NamingConventionsTests tvOS.xctest */,
 				F1B46AB221A998A6000A78E3 /* NamingConventions.framework */,
-				F1B46ABA21A998A6000A78E3 /* NamingConventions.xctest */,
+				F1B46ABA21A998A6000A78E3 /* NamingConventionsTests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 			);
 			name = "NamingConventionsTests tvOS";
 			productName = NamingConventionsTests;
-			productReference = F1B46A9E21A9986B000A78E3 /* NamingConventions.xctest */;
+			productReference = F1B46A9E21A9986B000A78E3 /* NamingConventionsTests tvOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F1B46AB121A998A6000A78E3 /* NamingConventions macOS */ = {
@@ -310,7 +310,7 @@
 			);
 			name = "NamingConventionsTests macOS";
 			productName = NamingConventionsTests;
-			productReference = F1B46ABA21A998A6000A78E3 /* NamingConventions.xctest */;
+			productReference = F1B46ABA21A998A6000A78E3 /* NamingConventionsTests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F1F6A79721A43F1200859C55 /* NamingConventions iOS */ = {
@@ -346,7 +346,7 @@
 			);
 			name = "NamingConventionsTests iOS";
 			productName = NamingConventionsTests;
-			productReference = F1F6A7A121A43F1200859C55 /* NamingConventions.xctest */;
+			productReference = F1F6A7A121A43F1200859C55 /* NamingConventionsTests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -646,7 +646,7 @@
 				INFOPLIST_FILE = NamingConventionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventionsTests;
-				PRODUCT_NAME = NamingConventions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -661,7 +661,7 @@
 				INFOPLIST_FILE = NamingConventionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventionsTests;
-				PRODUCT_NAME = NamingConventions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -727,7 +727,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventionsTests;
-				PRODUCT_NAME = NamingConventions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
 			};
@@ -743,7 +743,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventionsTests;
-				PRODUCT_NAME = NamingConventions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
 			};
@@ -916,7 +916,7 @@
 				INFOPLIST_FILE = NamingConventionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventionsTests;
-				PRODUCT_NAME = NamingConventions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "NamingConventionsTests/NamingConventionsTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -933,7 +933,7 @@
 				INFOPLIST_FILE = NamingConventionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Acidmanic.NamingConventionsTests;
-				PRODUCT_NAME = NamingConventions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "NamingConventionsTests/NamingConventionsTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
