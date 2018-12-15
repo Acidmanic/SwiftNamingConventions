@@ -1,6 +1,6 @@
 # NamingConventions
 
-[![CI Status](https://img.shields.io/travis/rust-lang/rust.svg?style=flat)](https://travis-ci.org/Acidmanic/NamingConventions)
+[![Build Status](https://travis-ci.org/Acidmanic/SwiftNamingConventions.svg?branch=master)](https://travis-ci.org/Acidmanic/SwiftNamingConventions)
 [![Version](https://img.shields.io/cocoapods/v/NamingConventions.svg?style=flat)](https://cocoapods.org/pods/NamingConventions)
 [![GitHub license](https://img.shields.io/github/license/Acidmanic/SwiftNamingConventions.svg)](https://github.com/Acidmanic/SwiftNamingConventions/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/NamingConventions.svg?style=flat)](https://cocoapods.org/pods/NamingConventions)
