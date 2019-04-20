@@ -43,7 +43,7 @@ class NamingConventionsTest:TestBase {
     
     func testShouldGetParticlesFromSnakeCase(){
         startTestCase(#function)
-        let name = "snake-case-is-hard"
+        let name = "snake_case_is_hard"
         let expected = ["snake","case","is","hard"]
         let actual = ConventionConverter().getName(nameString:name).particles
         XCTAssertEqual(expected, actual)
@@ -52,7 +52,7 @@ class NamingConventionsTest:TestBase {
     
     func testShouldCreateACamelCaseStringFromSnakeCase(){
         startTestCase(#function)
-        let name = "a-snake-case-to-convert"
+        let name = "a_snake_case_to_convert"
         let expected = "aSnakeCaseToConvert"
         let actual = ConventionConverter().autoConvert(from: name, to: NamingConventions.CamelCase)
         
@@ -63,7 +63,7 @@ class NamingConventionsTest:TestBase {
     
     func testShouldCreateAPascalStringFromSnakelCase(){
         startTestCase(#function)
-        let name = "a-snake-case-to-convert"
+        let name = "a_snake_case_to_convert"
         let expected = "ASnakeCaseToConvert"
         let actual = ConventionConverter().autoConvert(from: name, to: NamingConventions.PascallCase)
         XCTAssertEqual(expected, actual)
@@ -73,7 +73,7 @@ class NamingConventionsTest:TestBase {
     
     func testShouldCreateAJavaConstantCaseStringFromSnakelCase(){
         startTestCase(#function)
-        let name = "a-snake-case-to-convert"
+        let name = "a_snake_case_to_convert"
         let expected = "A_SNAKE_CASE_TO_CONVERT"
         let actual = ConventionConverter().autoConvert(from: name, to: NamingConventions.JavaConstantCase)
         XCTAssertEqual(expected, actual)
@@ -83,7 +83,7 @@ class NamingConventionsTest:TestBase {
     
     func testShouldCreateAMSInternalCaseStringFromSnakelCase(){
         startTestCase(#function)
-        let name = "a-snake-case-to-convert"
+        let name = "a_snake_case_to_convert"
         let expected = "_aSnakeCaseToConvert"
         let actual = ConventionConverter().autoConvert(from: name, to: NamingConventions.MSInternalCase)
         XCTAssertEqual(expected, actual)
@@ -95,7 +95,7 @@ class NamingConventionsTest:TestBase {
     func testShouldCreateASnakeCaseStringFromCamelCase(){
         startTestCase(#function)
         let name = "aCamelCaseToConvert"
-        let expected = "a-camel-case-to-convert"
+        let expected = "a_camel_case_to_convert"
         let actual = ConventionConverter().autoConvert(from: name, to: NamingConventions.SnakeCase)
         
         XCTAssertEqual(expected, actual)
@@ -133,7 +133,7 @@ class NamingConventionsTest:TestBase {
     
     func testShouldCreateASnakeString(){
         let name = "aCamelCaseNameToBegin"
-        let expected = "a-camel-case-name-to-begin"
+        let expected = "a_camel_case_name_to_begin"
         let actual = ConventionConverter().autoConvert(from: name, to: NamingConventions.SnakeCase)
         XCTAssertEqual(expected, actual)
     }
