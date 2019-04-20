@@ -1,6 +1,5 @@
 //
 //  NamingConvension.swift
-//  ICP.UI.IOS
 //
 //  Created by Mani Moayedi on 7/17/18.
 //  Copyright © 2018 Mani Moayedi. All rights reserved.
@@ -8,7 +7,7 @@
 
 import Foundation
 
-enum ParticleCase{
+public enum ParticleCase{
     case Lower
     case Upper
     case Pretty
