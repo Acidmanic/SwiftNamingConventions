@@ -15,7 +15,9 @@ public class NamingConventions{
     
     public static let PascallCase=NamingConvention(starter: "", firstParticle: ParticleCase.Pretty, otherParticles: ParticleCase.Pretty, separator: "")
     
-    public static let SnakeCase=NamingConvention(starter: "", firstParticle: ParticleCase.Lower, otherParticles: ParticleCase.Lower, separator: "-")
+    public static let SnakeCase=NamingConvention(starter: "", firstParticle: ParticleCase.Lower, otherParticles: ParticleCase.Lower, separator: "_")
+    
+    public static let KebabCase=NamingConvention(starter: "", firstParticle: ParticleCase.Lower, otherParticles: ParticleCase.Lower, separator: "_")
     
     public static let JavaConstantCase=NamingConvention(starter: "", firstParticle: ParticleCase.Upper, otherParticles: ParticleCase.Upper, separator: "_")
     
@@ -24,6 +26,7 @@ public class NamingConventions{
     public static let All = [NamingConventions.CamelCase,
                      NamingConventions.PascallCase,
                      NamingConventions.SnakeCase,
+                     NamingConventions.KebabCase,
                      NamingConventions.JavaConstantCase,
                      NamingConventions.MSInternalCase]
 }
