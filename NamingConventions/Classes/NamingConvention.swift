@@ -13,14 +13,12 @@ public enum ParticleCase {
     case Pretty
 }
 
-
 public class NamingConvention {
     
     var starter:String!=""
     var firstParticleCase:ParticleCase=ParticleCase.Lower
     var otherParticlesCase:ParticleCase=ParticleCase.Pretty
     var separator:String!=""
-    
     
     init() {    }
     
@@ -31,8 +29,3 @@ public class NamingConvention {
         self.separator = separator
     }
 }
-
-
-
-
-
