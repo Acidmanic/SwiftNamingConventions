@@ -50,7 +50,7 @@ public class ConventionConverter {
     }
     
     
-    private func getNameByPrettyCase(nameString:String, convention:NamingConvention)->Name! {
+    private func getNameByPrettyCase(nameString:String, convention:NamingConvention) -> Name! {
         if convention.otherParticlesCase == ParticleCase.Pretty {
             let ret = Name()
             ret.particles = nameString.splitByCaseChange()
@@ -60,7 +60,7 @@ public class ConventionConverter {
     }
     
     
-    func getName(nameString:String, convention:NamingConvention) -> Name!{
+    func getName(nameString:String, convention:NamingConvention) -> Name! {
         var name = nameString
         if hasValue(string: convention.starter) {
             name = String(name.suffix(convention.starter.count))
@@ -77,7 +77,7 @@ public class ConventionConverter {
         var resultConventions:[NamingConvention]=[]
         var resultNames:[Name]=[]
         for convention in NamingConventions.All {
-            let name = getName(nameString: nameString,convention:convention)
+            let name = getName(nameString: nameString, convention:convention)
             if let unwraped = name {
                 resultConventions.append(convention)
                 resultNames.append(unwraped)
@@ -89,18 +89,15 @@ public class ConventionConverter {
         return getSingleParticledName(nameString:nameString)
     }
     
-    
     private func getSingleParticledName(nameString:String) -> Name {
         let ret = Name()
         ret.particles = [nameString]
         return ret
     }
     
-    
-    
     func getString(of:Name, by:NamingConvention) -> String {
         var ret = ""
-        if hasValue(string: by.starter){
+        if hasValue(string: by.starter) {
             ret.append(by.starter)
         }
         if of.particles.count > 0 {
@@ -127,7 +124,7 @@ public class ConventionConverter {
         
         return particle
     }
-    public func autoConvert(from:String, to:NamingConvention) -> String{
+    public func autoConvert(from:String, to:NamingConvention) -> String {
         let name = getName(nameString: from)
         return getString(of: name, by: to)
     }
