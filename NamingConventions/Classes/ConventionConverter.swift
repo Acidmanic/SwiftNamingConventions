@@ -45,7 +45,7 @@ public class ConventionConverter {
     }
     
     
-    private func hasValue(string:String!)->Bool {
+    private func hasValue(string:String!) -> Bool {
         return string != nil && string.count > 0
     }
     
@@ -73,7 +73,7 @@ public class ConventionConverter {
         return getNameByPrettyCase(nameString:name, convention: convention)
     }
     
-    func getName(nameString:String)->Name {
+    func getName(nameString:String) -> Name {
         var resultConventions:[NamingConvention]=[]
         var resultNames:[Name]=[]
         for convention in NamingConventions.All {
@@ -98,7 +98,7 @@ public class ConventionConverter {
     
     
     
-    func getString(of:Name, by:NamingConvention)->String {
+    func getString(of:Name, by:NamingConvention) -> String {
         var ret = ""
         if hasValue(string: by.starter){
             ret.append(by.starter)
@@ -114,7 +114,7 @@ public class ConventionConverter {
         return ret
     }
     
-    private func reCase(particle:String,pcase:ParticleCase)->String {
+    private func reCase(particle:String,pcase:ParticleCase) -> String {
         if pcase == ParticleCase.Lower {
             return particle.lowercased()
         }
@@ -128,7 +128,7 @@ public class ConventionConverter {
         return particle
     }
     
-    public func autoConvert(from:String,to:NamingConvention)->String{
+    public func autoConvert(from:String,to:NamingConvention) -> String{
         let name = getName(nameString: from)
         return getString(of: name, by: to)
     }
