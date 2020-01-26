@@ -8,17 +8,17 @@
 
 import Foundation
 
-private extension String{
+private extension String {
     
-    func splitByCaseChange()->[String]{
+    func splitByCaseChange() -> [String] {
         var ret:[String] = [""]
         var index = 0
         let uppers = CharacterSet.uppercaseLetters
         var firstChar = true
-        for scaler in self.unicodeScalars{
-            if uppers.contains(scaler) && !firstChar{
+        for scaler in self.unicodeScalars {
+            if uppers.contains(scaler) && !firstChar {
                 ret.append("")
-                index = index + 1
+                index += 1
             }
             let char = Character(scaler)
             ret[index].append(char)
@@ -38,19 +38,19 @@ private extension String{
     }
 }
 
-public class ConventionConverter{
+public class ConventionConverter {
     
     
     public init() {
     }
     
     
-    private func hasValue(string:String!)->Bool{
+    private func hasValue(string:String!)->Bool {
         return string != nil && string.count > 0
     }
     
     
-    private func getNameByPrettyCase(nameString:String,convention:NamingConvention)->Name!{
+    private func getNameByPrettyCase(nameString:String, convention:NamingConvention)->Name! {
         if convention.otherParticlesCase == ParticleCase.Pretty {
             let ret = Name()
             ret.particles = nameString.splitByCaseChange()
@@ -60,9 +60,9 @@ public class ConventionConverter{
     }
     
     
-    func getName(nameString:String,convention:NamingConvention)->Name!{
+    func getName(nameString:String, convention:NamingConvention)->Name!{
         var name = nameString
-        if hasValue(string: convention.starter){
+        if hasValue(string: convention.starter) {
             name = String(name.suffix(convention.starter.count))
         }
         if hasValue(string: convention.separator) {
@@ -70,10 +70,10 @@ public class ConventionConverter{
             ret.particles = nameString.components(separatedBy: convention.separator)
             return ret
         }
-        return getNameByPrettyCase(nameString:name,convention: convention)
+        return getNameByPrettyCase(nameString:name, convention: convention)
     }
     
-    func getName(nameString:String)->Name{
+    func getName(nameString:String)->Name {
         var resultConventions:[NamingConvention]=[]
         var resultNames:[Name]=[]
         for convention in NamingConventions.All {
@@ -83,16 +83,14 @@ public class ConventionConverter{
                 resultNames.append(unwraped)
             }
         }
-        for name in resultNames{
-            if name.particles.count > 1 {
-                return name
-            }
+        for name in resultNames where name.particles.count > 1 {
+            return name
         }
         return getSingleParticledName(nameString:nameString)
     }
     
     
-    private func getSingleParticledName(nameString:String)->Name{
+    private func getSingleParticledName(nameString:String)->Name {
         let ret = Name()
         ret.particles = [nameString]
         return ret
@@ -100,24 +98,23 @@ public class ConventionConverter{
     
     
     
-    func getString(of:Name,by:NamingConvention)->String{
+    func getString(of:Name, by:NamingConvention)->String {
         var ret = ""
         if hasValue(string: by.starter){
             ret.append(by.starter)
         }
         if of.particles.count > 0 {
-            ret.append(reCase(particle:of.particles[0],pcase:by.firstParticleCase))
+            ret.append(reCase(particle:of.particles[0], pcase:by.firstParticleCase))
             let sep = (hasValue(string: by.separator) ? by.separator : "")!
             for i in 1..<of.particles.count {
                 ret.append(sep)
-                ret.append(reCase(particle:of.particles[i],pcase:by.otherParticlesCase))
+                ret.append(reCase(particle:of.particles[i], pcase:by.otherParticlesCase))
             }
         }
         return ret
     }
     
-    
-    private func reCase(particle:String,pcase:ParticleCase)->String{
+    private func reCase(particle:String,pcase:ParticleCase)->String {
         if pcase == ParticleCase.Lower {
             return particle.lowercased()
         }

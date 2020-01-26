@@ -7,10 +7,8 @@
 //
 
 import Foundation
-class Name{
+class Name {
     
     var particles:[String]=[]
-    
-    
-    
+       
 }

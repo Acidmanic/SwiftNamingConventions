@@ -7,14 +7,14 @@
 
 import Foundation
 
-public enum ParticleCase{
+public enum ParticleCase {
     case Lower
     case Upper
     case Pretty
 }
 
 
-public class NamingConvention{
+public class NamingConvention {
     
     var starter:String!=""
     var firstParticleCase:ParticleCase=ParticleCase.Lower
@@ -24,7 +24,7 @@ public class NamingConvention{
     
     init() {    }
     
-    init(starter:String,firstParticle:ParticleCase,otherParticles:ParticleCase,separator:String) {
+    init(starter:String, firstParticle:ParticleCase, otherParticles:ParticleCase, separator:String) {
         self.starter=starter
         self.firstParticleCase = firstParticle
         self.otherParticlesCase = otherParticles
