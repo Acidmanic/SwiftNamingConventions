@@ -11,32 +11,32 @@ import Foundation
 public class NamingConventions {
     private init() {}
     
-    public static let CamelCase=NamingConvention(starter: "", 
+    public static let CamelCase=NamingConvention(starter: "",
                                                 firstParticle: ParticleCase.Lower, 
                                                 otherParticles: ParticleCase.Pretty, 
                                                 separator: "")
     
-    public static let PascallCase=NamingConvention(starter: "", 
+    public static let PascallCase=NamingConvention(starter: "",
                                                 firstParticle: ParticleCase.Pretty, 
                                                 otherParticles: ParticleCase.Pretty, 
                                                 separator: "")
     
-    public static let SnakeCase=NamingConvention(starter: "", 
+    public static let SnakeCase=NamingConvention(starter: "",
                                                 firstParticle: ParticleCase.Lower, 
                                                 otherParticles: ParticleCase.Lower, 
                                                 separator: "_")
     
-    public static let KebabCase=NamingConvention(starter: "", 
+    public static let KebabCase=NamingConvention(starter: "",
                                                 firstParticle: ParticleCase.Lower, 
                                                 otherParticles: ParticleCase.Lower, 
                                                 separator: "_")
     
-    public static let JavaConstantCase=NamingConvention(starter: "", 
+    public static let JavaConstantCase=NamingConvention(starter: "",
                                                         firstParticle: ParticleCase.Upper, 
                                                         otherParticles: ParticleCase.Upper, 
                                                         separator: "_")
     
-    public static let MSInternalCase=NamingConvention(starter: "_", 
+    public static let MSInternalCase=NamingConvention(starter: "_",
                                                     firstParticle: ParticleCase.Lower, 
                                                     otherParticles: ParticleCase.Pretty, 
                                                     separator: "")
