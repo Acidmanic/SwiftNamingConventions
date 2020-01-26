@@ -60,7 +60,7 @@ public class ConventionConverter {
     }
     
     
-    func getName(nameString:String, convention:NamingConvention)->Name!{
+    func getName(nameString:String, convention:NamingConvention) -> Name!{
         var name = nameString
         if hasValue(string: convention.starter) {
             name = String(name.suffix(convention.starter.count))
@@ -90,7 +90,7 @@ public class ConventionConverter {
     }
     
     
-    private func getSingleParticledName(nameString:String)->Name {
+    private func getSingleParticledName(nameString:String) -> Name {
         let ret = Name()
         ret.particles = [nameString]
         return ret
@@ -114,7 +114,7 @@ public class ConventionConverter {
         return ret
     }
     
-    private func reCase(particle:String,pcase:ParticleCase) -> String {
+    private func reCase(particle:String, pcase:ParticleCase) -> String {
         if pcase == ParticleCase.Lower {
             return particle.lowercased()
         }
@@ -127,8 +127,7 @@ public class ConventionConverter {
         
         return particle
     }
-    
-    public func autoConvert(from:String,to:NamingConvention) -> String{
+    public func autoConvert(from:String, to:NamingConvention) -> String{
         let name = getName(nameString: from)
         return getString(of: name, by: to)
     }
