@@ -1,5 +1,6 @@
 # NamingConventions
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d163f030d193475aa7380c542ff886af)](https://app.codacy.com/manual/Acidmanic/SwiftNamingConventions?utm_source=github.com&utm_medium=referral&utm_content=Acidmanic/SwiftNamingConventions&utm_campaign=Badge_Grade_Settings)
 [![Build Status](https://travis-ci.org/Acidmanic/SwiftNamingConventions.svg?branch=master)](https://travis-ci.org/Acidmanic/SwiftNamingConventions)
 [![Version](https://img.shields.io/cocoapods/v/NamingConventions.svg?style=flat)](https://cocoapods.org/pods/NamingConventions)
 [![GitHub license](https://img.shields.io/github/license/Acidmanic/SwiftNamingConventions.svg)](https://github.com/Acidmanic/SwiftNamingConventions/blob/master/LICENSE)
